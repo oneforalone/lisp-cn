@@ -1,23 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>文档</title>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <?php include 'header.html'; ?>
 </head>
 <body>
-  <nav class="nav-bar">
-    <a href="https://www.lisp-cn.net">
-      <span class="logo"></span>
-      <span class="brand">Lisp-CN</span>
-    </a>
-    <li class="nav-item"><a href="#">开始</a></li>
-    <li class="nav-item"><a href="#">文档</a></li>
-    <li class="nav-item"><a href="#">项目</a></li>
-    <li class="nav-item"><a href="#">论坛</a></li>
-    <li class="nav-item"><a href="#">关于</a></li>
-  </nav>
+
+  <?php include 'nav.html'; ?>
 
   <div class="main">
     <section style="padding-top: 25px;"></section>
@@ -27,7 +18,7 @@
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/test.jpg">
+              <img alt="Practical Common Lisp Cover" src="assets/pcl.jpg">
             </div>
 
             <div class="book-info">
@@ -43,14 +34,14 @@
 
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="http://www.gigamonkeys.com/book" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/on-lisp.jpg" alt="cover">
+              <img alt="On Lisp Cover" src="assets/on-lisp.jpg">
             </div>
             <div class="book-info">
               <h4>On Lisp</h4>
@@ -61,7 +52,7 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="http://www.paulgraham.com/onlisp.html" target="_blank">英文</a>
               </div>
             </div>
         </div>
@@ -69,7 +60,7 @@
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/successful.jpg" alt="cover">
+              <img alt="Successful Lisp Cover" src="assets/successful.jpg">
             </div>
             <div class="book-info">
               <h4>Successful Lisp</h4>
@@ -80,14 +71,14 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="http://dept-info.labri.fr/~strandh/Teaching/MTP/Common/David-Lamkins/cover.html" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/lh.jpg" alt="cover">
+              <img alt="Lisp Hackers Cover" src="assets/lh.jpg">
             </div>
             <div class="book-info">
               <h4>Lisp 黑客们</h4>
@@ -98,7 +89,7 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="https://leanpub.com/lisphackers/read" target="_blank">英文</a>
               </div>
             </div>
         </div>
@@ -106,7 +97,7 @@
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/lwt.png" alt="cover">
+              <img alt="Lisp Web Tales Cover" src="assets/lwt.png">
             </div>
             <div class="book-info">
               <h4>Lisp Web 开发</h4>
@@ -117,14 +108,14 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="https://leanpub.com/lispwebtales" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/clr.jpg" alt="cover">
+              <img alt="Common Lisp Recipes Cover" src="assets/clr.jpg">
             </div>
             <div class="book-info">
               <h4>Common Lisp Recipes</h4>
@@ -135,14 +126,14 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="http://weitz.de/cl-recipes" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/lol.png" alt="cover">
+              <img alt="Land of Lisp Cover" src="assets/lol.png">
             </div>
             <div class="book-info">
               <h4>Land of Lisp</h4>
@@ -153,17 +144,17 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="http://landoflisp.com/" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/pa.png" alt="cover">
+              <img alt="programming Algorithms Cover" src="assets/pa.png">
             </div>
             <div class="book-info">
-              <h4>Programming Algorithms</h4>
+              <h4>编程算法</h4>
               <div class="book-intro">
                 <p>
                   A comprehensive guide to writing efficient programs with examples in Lisp.
@@ -171,14 +162,14 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="https://leanpub.com/progalgs" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/letoverlambda.png" alt="cover">
+              <img alt="Let Over Lambda Cover" src="assets/letoverlambda.png">
             </div>
 
             <div class="book-info">
@@ -190,14 +181,14 @@
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="https://letoverlambda.com/" target="_blank">英文</a>
               </div>
             </div>
         </div>
 
         <div class="book-card">
             <div class="book-cover">
-              <img src="assets/lovingcl.jpeg" alt="cover">
+              <img alt="Loving Common Lisp, or the Savvy Programmer's Secret Weapon Cover" src="assets/lovingcl.jpeg">
             </div>
 
             <div class="book-info">
@@ -210,7 +201,7 @@
 
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
-                <a class="btn" href="#" target="_blank">英文</a>
+                <a class="btn" href="https://leanpub.com/lovinglisp" target="_blank">英文</a>
               </div>
             </div>
         </div>
@@ -234,16 +225,16 @@
       </ul>
     </section>
     <section style="padding-top: 25px;">
-      <h2>Getting Help</h2>
-      <p>If you need help, get in contact via <a href="https://www.common-lisp.net/community">the Lisp mailing lists and IRC</a></p>
+      <h2>获取帮助</h2>
+      <p>需要帮助的话，直接联系对应的 <a href="https://www.common-lisp.net/community">Lisp 邮件列表或者 IRC</a></p>
     </section>
     <section style="padding-top: 25px;">
       <h2>其他资源</h2>
       <ul>
         <li><a href="https://lispcookbook.github.io/cl-cookbook/">the Common Lisp Cookbook</a></li>
-        <li><a href="https://cliki.net/">CLiki</a> - The Common Lisp wiki</li>
-        <li><a href="http://quickdocs.org/">Quickdocs</a> - Documentation for All Common Lisp Projects</li>
-        <li><a href="http://quickref.common-lisp.net/">Quickref</a> - Reference manuals for Quicklisp libraries</li>
+        <li><a href="https://cliki.net/">CLiki</a> —— Common Lisp 维基</li>
+        <li><a href="http://quickdocs.org/">Quickdocs</a> —— 所有 Common Lisp 项目文档</li>
+        <li><a href="http://quickref.common-lisp.net/">Quickref</a> —— Quicklisp 库的参考手册</li>
         <li><a href="http://borretti.me/article/common-lisp-sotu-2015">State of the Common Lisp Ecosystem</a> as of 2015</li>
       </ul>
     </section>

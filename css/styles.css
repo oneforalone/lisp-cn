@@ -1,180 +1,125 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+
+/* style for mobile */
+@media (max-width: 768px) {
+
 }
 
-body {
-  width: 70%;
-  margin: 0 auto;
+/* style for pc */
+@media (min-width: 768px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
-  display: flex;
-  flex-direction: column;
+  body {
+    width: 78%;
+    margin: 0 auto;
 
-  color: #555;
-}
+    display: flex;
+    flex-direction: column;
 
-a {
-  color: crimson;
-  text-decoration: none;
-}
+    color: #555;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  a {
+    color: crimson;
+    text-decoration: none;
+  }
 
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  a:hover {
+    text-decoration: underline;
+  }
 
-  padding-top: 15px;
-  padding-bottom: 15px;
+  .main {
+    margin-top: 20px;
+    padding: 20px 30px;
 
-  border-bottom: 1px solid #eeeeee;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
 
-  box-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.05);
-}
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
 
-.nav-bar .nav-item {
-  margin-left: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  .main h1 {
+    color: #111;
+    text-align: center;
+  }
 
-  color: #888;
-}
+  .main h2 {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
 
-.nav-bar a {
-  display: block;
-  text-decoration: none;
-}
+  .main-area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
 
-.nav-bar .brand {
-  color: #333;
-  font-size: larger;
-  margin-left: 30px;
-}
+  .main-area .left-bar {
+    flex: 2;
+    padding: 10px 20px;
+    border: 1px solid #eeeeee;
+  }
 
-.nav-item a {
-  color: #777;
-}
+  .main-area .right-bar {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #eeeeee;
+  }
 
-.nav-item a:hover {
-  color: #333;
-  font-weight: bold;
-}
+  .right-bar li {
+    list-style: none;
+  }
 
-.nav-bar > li {
-  list-style: none;
-}
+  .book-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+  }
 
-.main {
-  margin-top: 20px;
-  padding: 20px 30px;
+  .book-card {
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: row;
 
-  border-radius: 10px;
-  border: 1px solid #eeeeee;
+    border-radius: 1rem;
+    margin: 10px;
+    padding: 5px;
+    width: 47%;
+  }
 
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-}
+  .book-cover {
+    margin: 15px 20px;
+    padding: 10px;
+  }
 
-.main h1 {
-  color: #111;
-  text-align: center;
-}
+  .book-cover>img {
+    width: 170px;
+    height: 230px;
+    object-fit: cover;
+  }
 
-.main h2 {
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
+  .book-info {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
-.main-area {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-}
-
-.main-area .left-bar {
-  flex: 2;
-  padding: 10px 20px;
-  border: 1px solid #eeeeee;
-}
-
-.main-area .right-bar {
-  margin-left: 10px;
-  padding: 10px 20px;
-  border: 1px solid #eeeeee;
-}
-
-.right-bar li {
-  list-style: none;
-}
-
-.footer {
-  position: absolute;
-  height: 50px;
-  bottom: 0;
-
-  margin-top: 20px;
-  padding-bottom: 10px;
-  padding-top: 20px;
-
-  width: 70%;
-
-  border: 1px solid #eeeeee;
-}
-
-.footer .container {
-  margin-left: 10px;
-}
-
-.book-box {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  box-sizing: border-box;
-}
-
-.book-card {
-  border: 1px solid #eeeeee;
-  display: flex;
-  flex-direction: row;
-
-  border-radius: 1rem;
-  margin: 10px;
-  padding: 5px;
-  width: 47%;
-}
-
-.book-cover {
-  margin: 15px 20px;
-  padding: 10px;
-}
-
-.book-cover>img {
-  width: 170px;
-  height: 230px;
-  object-fit: cover;
-}
-
-.book-info {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  padding: 0.375rem 0.75rem;
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  background-color: crimson;
-  color: white;
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    background-color: crimson;
+    color: white;
+  }
 }

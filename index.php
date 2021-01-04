@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-cn">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lisp 中国</title>
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+    <?php include 'header.html'; ?>
   </head>
 
   <body>
-    <nav class="nav-bar">
-      <a href="https://www.lisp-cn.net">
-        <span class="logo"></span>
-        <span class="brand">Lisp-CN</span>
-      </a>
-      <li class="nav-item"><a href="https://oneforalone.github.io/cl-cookbook-cn/#/zh-cn/00.getting-started">开始</a></li>
-      <li class="nav-item"><a href="https://www.lisp-cn.net/documentation.html">文档</a></li>
-      <li class="nav-item"><a href="#">项目</a></li>
-      <li class="nav-item"><a href="#">论坛</a></li>
-      <li class="nav-item"><a href="#">关于</a></li>
-    </nav>
+  <?php include 'nav.html'; ?>
 
-    <main class="main">
+  <main class="main">
       <h1>欢迎来到 Lisp 中文网</h1>
       <div class="main-area">
         <div class="left-bar">
@@ -32,6 +20,9 @@
               本网站始于 <a href="https://oneforalone.github.io/cl-cookbook-cn/#/">CommonLisp Cookbook 翻译项目</a>，致力打造一个完善的 Lisp 中文网。目前网站项目正处于建设期，欢迎更多的 Lisper 爱好者一起加入。
             </p>
           </section>
+        </div>
+
+        <div class="right-bar">
           <article>
             <h2>最新动态</h2>
             <section>
@@ -45,9 +36,6 @@
               </p>
             </section>
           </article>
-        </div>
-
-        <div class="right-bar">
           <h2>拓展链接</h2>
           <li><a href="https://ksco.gitbooks.io/build-your-own-lisp/content/">Build Your Own Lisp</a></li>
           <li><a href="https://www.douban.com/group/topic/10527701/">屠龙之技</a></li>
@@ -59,12 +47,5 @@
       </div>
 
     </main>
-
-    <!-- <footer class="footer">
-      <div class="container">
-        <p>&copy;2020-2021 Yuqi Liu</p>
-      </div>
-    </footer> -->
   </body>
-
 </html>
