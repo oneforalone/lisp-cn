@@ -10,7 +10,7 @@
   <body>
   <?php include 'nav.html'; ?>
 
-  <main class="main">
+  <main class="main center">
       <h1>欢迎来到 Lisp 中文网</h1>
       <div class="main-area">
         <div class="left-bar">
@@ -47,5 +47,7 @@
       </div>
 
     </main>
+
+    <?php include 'footer.html'; ?>
   </body>
 </html>

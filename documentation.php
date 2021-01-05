@@ -10,8 +10,8 @@
 
   <?php include 'nav.html'; ?>
 
-  <div class="main">
-    <section style="padding-top: 25px;"></section>
+  <main class="main center">
+    <section>
       <h2>书籍</h2>
 
       <div class="book-box">
@@ -207,8 +207,8 @@
         </div>
       </div>
 
-      <p>
-        Also:
+      <p style="margin-top: 15px;">
+        以及：
         <ul>
           <li><a href="http://www.paulgraham.com/acl.html" target="_blank">ANSI Common Lisp</a></li>
           <li><a href="https://www.darkchestnut.com/book-common-lisp-application-deployment" target="_blank">Common Lisp in the Wild - Deploying Common Lisp Applications</a></li>
@@ -238,7 +238,9 @@
         <li><a href="http://borretti.me/article/common-lisp-sotu-2015">State of the Common Lisp Ecosystem</a> as of 2015</li>
       </ul>
     </section>
-  </div>
+  </main>
+
+  <?php include 'footer.html'; ?>
 
 </body>
 </html>
