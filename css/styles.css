@@ -20,6 +20,7 @@ a {
 }
 
 a:hover {
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -107,6 +108,7 @@ a:hover {
 }
 
 .book-info {
+  margin-top: 15px;
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -142,7 +144,6 @@ a:hover {
 
 /* adjust for mobile */
 @media (max-width: 768px) {
-
   .book-card {
     flex-direction: row;
     width: 100%;
@@ -174,7 +175,9 @@ a:hover {
 
 /* adjust for tablets */
 @media (min-width: 768px) and (max-width: 1266px) {
-
+  .book-info {
+    margin-top: 0;
+  }
 }
 
 /* normal PC */

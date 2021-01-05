@@ -22,13 +22,13 @@
             </div>
 
             <div class="book-info">
-              <h4>实用 Common Lisp 编程</h4>
+              <h4>实用 Common Lisp</h4>
               <div class="book-intro">
                 <p>
-                  Lisp is often thought of as an academic language, but it need not be. This is the first book that introduces Lisp as a language for the real world.
+                  通常，Lisp 被看做学术上使用的语言，但这可不一定。本书是第一本面把 Lisp 当做一门语言介绍给大众的。
                 </p>
                 <p>
-                  Practical Common Lisp presents a thorough introduction to Common Lisp, providing you with an overall understanding of the language features and how they work.
+                  《实用 Common Lisp》全面介绍了 Common Lisp，让你对这门语言的特性及工作原理有个全面的了解。
                 </p>
               </div>
 
@@ -47,7 +47,7 @@
               <h4>On Lisp</h4>
               <div class="book-intro">
                 <p>
-                  On Lisp is a comprehensive study of advanced Lisp techniques, with bottom-up programming as the unifying theme. It gives the first complete description of macros and macro applications. The book also covers important subjects related to bottom-up programming, including functional programming, rapid prototyping, interactive development, and embedded languages.
+                《On Lisp》以自底向上编程为主题，对 Lisp 高级技巧进行了完整的研究。第一次完整地描述了宏和宏应用。这本书还涵盖了与自底向上编程相关的重要主题，包括函数式编程、快速原型设计、交互式开发和嵌入式语言。
                 </p>
               </div>
               <div class="book-link">
@@ -107,7 +107,7 @@
                 </p>
               </div>
               <div class="book-link">
-                <a class="btn" href="#" target="_blank">中文</a>
+                <a class="btn" href="https://lispwebtales.readthedocs.io/zh_CN/latest/" target="_blank">中文</a>
                 <a class="btn" href="https://leanpub.com/lispwebtales" target="_blank">英文</a>
               </div>
             </div>
@@ -120,9 +120,7 @@
             <div class="book-info">
               <h4>Common Lisp Recipes</h4>
               <div class="book-intro">
-                <p>
-                  Find solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp. This book covers areas as diverse as web programming, databases, graphical user interfaces, integration with other programming languages, multi-threading, and mobile devices as well as debugging techniques and optimization, to name just a few.
-                </p>
+                <p>找到问题的解决方案，回答使用 Common Lisp 开发实际应用程序时可能遇到的问题。本书涵盖了不同领域，如 web 开发、数据库、图形界面、和其他语言的集成、多线程和移动设备以及调试和优化方面，这里只列举了一小部分。</p>
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
@@ -157,7 +155,7 @@
               <h4>编程算法</h4>
               <div class="book-intro">
                 <p>
-                  A comprehensive guide to writing efficient programs with examples in Lisp.
+                用 Lisp 编写高效程序的完整指南。
                 </p>
               </div>
               <div class="book-link">
@@ -175,9 +173,7 @@
             <div class="book-info">
               <h4>Let Over Lambda</h4>
               <div class="book-intro">
-                <p>
-                  Let Over Lambda is one of the most hardcore computer programming books out there. Starting with the fundamentals, it describes the most advanced language: COMMON LISP. The point of this book is to expose you to ideas that you might otherwise never be exposed to.
-                </p>
+                <p>《Let Over Lambda》 是这些编程书中最硬核之一。由基础部分开始，描述了最先进的语言：Common Lisp。本书的重点是让你接触一些你从来都没有接触过的思想。</p>
               </div>
               <div class="book-link">
                 <a class="btn" href="#" target="_blank">中文</a>
@@ -194,9 +190,7 @@
             <div class="book-info">
               <h4>Loving Common Lisp, or the Savvy Programmer's Secret Weapon</h4>
               <div class="book-intro">
-                <p>
-                  The purpose of this book is to provide a quick introduction to Common Lisp and then provide the user with many fun and useful examples for using Common Lisp. The author has used Common Lisp professionally since 1982.
-                </p>
+                <p>这本书的目的是给 Common Lisp 做个快速的介绍，然后给读者介绍了很多有趣且实用的 Common Lisp 例子。作者从 1982 年就开始专业地使用 Common Lisp。</p>
               </div>
 
               <div class="book-link">
@@ -213,7 +207,7 @@
           <li><a href="http://www.paulgraham.com/acl.html" target="_blank">ANSI Common Lisp</a></li>
           <li><a href="https://www.darkchestnut.com/book-common-lisp-application-deployment" target="_blank">Common Lisp in the Wild - Deploying Common Lisp Applications</a></li>
         </ul>
-        点击<a href="https://cliki.net/Lisp+Books">这里</a> 查看书籍的完整列表。
+        点击<a href="https://cliki.net/Lisp+Books">这里</a>查看书籍的完整列表。
       </p>
     </section>
 
