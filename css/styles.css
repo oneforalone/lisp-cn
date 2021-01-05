@@ -142,8 +142,19 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-/* adjust for mobile */
-@media (max-width: 768px) {
+/* adjust for iPhone screen */
+@media (max-width: 414px) {
+  .book-cover {
+    display: none;
+  }
+
+  .book-card {
+    width: 100%;
+  }
+}
+
+/* adjust for tablets */
+@media (min-width: 414px) and (max-width: 800px) {
   .book-card {
     flex-direction: row;
     width: 100%;
@@ -173,7 +184,7 @@ a:hover {
   }
 }
 
-/* adjust for tablets */
+/* adjust for small screen */
 @media (min-width: 768px) and (max-width: 1266px) {
   .book-info {
     margin-top: 0;
