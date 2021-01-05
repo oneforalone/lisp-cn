@@ -24,6 +24,10 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  object-fit: cover;
+}
+
 .center {
   margin: 0 auto;
 }
@@ -101,10 +105,9 @@ a:hover {
   padding: 10px;
 }
 
-.book-cover>img {
+.book-cover img {
   width: 170px;
   height: 230px;
-  object-fit: cover;
 }
 
 .book-info {
@@ -142,6 +145,32 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.donation-area {
+  margin: 20px 30px;
+  display: grid;
+  grid-template-areas: "alipay wechat union";
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.alipay {
+  grid-area: "alipay";
+}
+
+.wechat-pay {
+  grid-area: "wechat";
+}
+
+.union-pay {
+  grid-area: "union";
+}
+
+.donation-area img {
+  width: 300px;
+  height: 300px;
+}
+
 /* adjust for iPhone screen */
 @media (max-width: 414px) {
   .book-cover {
@@ -151,6 +180,14 @@ a:hover {
   .book-card {
     width: 100%;
   }
+
+  .donation-area {
+    margin: 10px 20px;
+    grid-template-areas:
+      "alipay"
+      "wechat"
+      "union";
+  }
 }
 
 /* adjust for tablets */
@@ -158,6 +195,14 @@ a:hover {
   .book-card {
     flex-direction: row;
     width: 100%;
+  }
+
+  .donation-area {
+    grid-template-areas:
+      "alipay wechat"
+      "union .";
+    grid-gap: 50px;
+    gap: 50px;
   }
 }
 

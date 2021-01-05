@@ -15,14 +15,17 @@
       <h2>
         暂时还没编好。纯爱发电，求个赞助：）
       </h2>
-      <div class="book-cover">
 
-          <img alt="alipay QR" src="assets/alipay.jpg"
-              style="width: 200px; height: 200px;">
-
-          <img alt="wechat pay QR" src="assets/wechat_pay.jpg"
-              style="width: 200px; height: 200px;">
-
+      <div class="donation-area center">
+        <div class="alipay">
+          <img alt="alipay QR code" src="assets/alipay.jpg">
+        </div>
+        <div class="wechat-pay">
+          <img alt="wechat pay QR code" src="assets/wechat_pay.jpg">
+        </div>
+        <div class="union-pay">
+          <img alt="union pay QR code" src="assets/union_pay.jpg">
+        </div>
       </div>
     </main>
 
